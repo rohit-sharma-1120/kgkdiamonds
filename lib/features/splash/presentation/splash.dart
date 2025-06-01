@@ -1,8 +1,6 @@
 import 'dart:async';
-
 import 'package:flutter/material.dart';
 import 'package:kgkdiamonds/core/constant/app_images.dart';
-
 import '../../filter/presentation/filter.dart';
 
 class Splash extends StatefulWidget {
@@ -28,11 +26,7 @@ class _SplashState extends State<Splash> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: const Color(0xFF344444),
-      body: Center(
-        child: Image.asset(
-          AppImages.APPLGOG,
-        ),
-      ),
+      body: Center(child: Image.asset(AppImages.APPLGOG)),
     );
   }
 }
